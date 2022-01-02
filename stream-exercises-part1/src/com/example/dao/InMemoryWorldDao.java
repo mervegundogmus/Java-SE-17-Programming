@@ -10,10 +10,6 @@ import java.util.concurrent.ConcurrentHashMap;
 import com.example.domain.City;
 import com.example.domain.Country;
 
-/**
- *
- * @author Binnur Kurt (binnur.kurt@gmail.com)
- */
 public class InMemoryWorldDao implements WorldDao {
 	private Map<String, Country> countries;
 	private Map<Integer, City> cities;

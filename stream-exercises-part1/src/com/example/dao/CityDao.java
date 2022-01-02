@@ -4,10 +4,6 @@ import java.util.List;
 
 import com.example.domain.City;
 
-/**
- *
- * @author Binnur Kurt (binnur.kurt@gmail.com)
- */
 public interface CityDao {
 	City findCityById(int id);
 
