@@ -5,10 +5,6 @@ import java.util.Set;
 
 import com.example.domain.Country;
 
-/**
- *
- * @author Binnur Kurt (binnur.kurt@gmail.com)
- */
 public interface CountryDao {
 	Country findCountryByCode(String code);
 
