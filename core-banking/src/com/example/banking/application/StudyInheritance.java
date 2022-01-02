@@ -2,27 +2,28 @@ package com.example.banking.application;
 
 public class StudyInheritance {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		A a = new A();
 		E e = new E(42);
-
 	}
 
 }
 
-//class A {}
-class A extends Object { //no-arg constructor
-	public A() {
+// class A {}
+class A extends Object {
+	public A() { // no-arg constructor
 		super();
 	}
 }
 
 class E {
-	public E(int x) {}
+	public E(int x) {
+	}
 }
 
 class F extends E {
-	public F( ) {
+	public F() {
 		super(42);
 	}
 }
