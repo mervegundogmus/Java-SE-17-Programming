@@ -1,9 +1,5 @@
 package com.example.model;
 
-/**
- *
- * @author Binnur Kurt (binnur.kurt@gmail.com)
- */
 public class CriteriaBean {
 	private boolean yearRangeSelected;
 	private int fromYear;
